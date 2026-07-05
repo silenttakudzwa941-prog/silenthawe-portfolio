@@ -28,18 +28,19 @@ export default function Projects() {
           </div>
 
           {/* Clip 2: Mobile View */}
-          <div className="project-card">
-            <h3>Restaurant Websites</h3>
-            <video 
-              src="/elite-dining-ecommerce.mp4" 
-              controls 
-              autoPlay 
-              muted 
-              loop 
-              playsInline
-            />
-            <p>Looks clean on phone too</p>
-          </div>
+         <div className="project-card">
+  <h3>Restaurant Websites</h3>
+  <video
+    src="/elite.mp4"
+    autoPlay
+    muted
+    loop
+    playsInline  // <- this is key for iPhone
+    controls
+    className="w-full rounded-lg"
+  />
+  <p>Looks clean on phone too</p>
+</div>
 
           {/* Clip 3: Features */}
           <div className="project-card">
