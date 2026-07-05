@@ -29,9 +29,9 @@ export default function Projects() {
 
           {/* Clip 2: Mobile View */}
           <div className="project-card">
-            <h3>Mobile Responsive</h3>
+            <h3>Restaurant Websites</h3>
             <video 
-              src="/pocamde-mobile.mp4" 
+              src="/elite-dining-ecommerce.mp4" 
               controls 
               autoPlay 
               muted 
